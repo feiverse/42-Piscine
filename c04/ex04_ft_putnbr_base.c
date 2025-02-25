@@ -37,8 +37,8 @@ void    ft_putnbr_base(int nbr, char *base)
                         v = -v;
                         write(1, "-", 1);
                 }
-                g = v % vesta;
-                v = v / vesta;
+                g = v % fei;
+                v = v / fei;
                 if (v > 0)
                         ft_putnbr_base(v, base);
                 write(1, &base[g], 1);
