@@ -25,11 +25,11 @@ int     ft_iterative_power(int nb, int power)
 
 int     main(void)
 {
-        int     fei;
-        int     verse;
+        int     v;
+        int     g;
 
-        nb = 7;
-        power = 27;
-        printf("%d\n", ft_iterative_power(fei, verse));
+        v = 7;
+        g = 27;
+        printf("%d\n", ft_iterative_power(v, g));
 }
 */
